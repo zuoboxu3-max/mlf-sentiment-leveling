@@ -3,7 +3,7 @@ function advancedGmailFilter() {
     spreadsheetId: '1UoDD1V7I5T6thL_K1FvfZUhhFMzYYHjBL2JgWu2NHRE',
     sheetName: 'voice仙台メール返信用リスト',
     timeRange: '1d', // 検索対象期間
-    targetAddress: 'voice@digitalwork-lab.com',
+    targetAddress: '*****************',
     pageSize: 100, // Gmail検索の1ページ件数（最大100程度が安定）
     maxPages: 20, // 念のための上限（合計最大 ~2000件）
     bodySnippetLength: 500,
